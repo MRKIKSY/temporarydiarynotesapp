@@ -1,4 +1,4 @@
-import { FaPlus } from 'react-icons/fa';
+import { IoMdAdd } from "react-icons/io";
 import { useRef } from 'react';
 
 // NEW ITEM SET NEW ITEM HANDLE SUBMIT POPPED DRILED FROM APP.JS
@@ -23,7 +23,7 @@ const AddItem = ({ newItem, setNewItem, handleSubmit }) => {
                 aria-label='Add Item'
                 onClick={() => inputRef.current.focus()}
             >
-                <FaPlus />
+            <IoMdAdd />
             </button>
         </form>
     )
